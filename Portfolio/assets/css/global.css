@@ -8,8 +8,8 @@
     padding: 1rem;
     border: 1px solid white;
     border-radius: 1rem;
-    background: rgb(0,96,59);
-    background: linear-gradient(120deg, rgba(0,96,59,1) 7%, rgba(0,196,141,1) 43%, rgba(140,255,236,1) 98%);
+    
+    background: linear-gradient(120deg, rgba(0,59,55,1) 4%, rgba(0,153,141,1) 53%, rgba(0,255,235,1) 100%);
 }
 
 .main::before{
@@ -40,9 +40,19 @@
     transform: rotate(180deg);
 }
 
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
 body{
-    background-color: black;
-    color: white;
+    margin: 0;
+    color:white ;
+    background-color: green;
 }
 
 a{
